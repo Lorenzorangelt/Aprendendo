@@ -1,0 +1,123 @@
+<---Peguei alguns tutoriais no W3Shools--->
+
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="janela de exibição" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    
+    .row.content {height: 1500px}
+    
+
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+  
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Blog do Lorenzo</h4>
+     <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Casa</a></li>
+        <li><a href="#section2">Amigos</a></li>
+        <li><a href="#section3">Familia</a></li>
+        <li><a href="#section3">Fotos</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Pesquisar blog
+..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>Postagens Recentes</small></h4>
+      <hr>
+      <h2>Frases de motivação </h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Postado pelo Lorenzo, 22 de Novembro de 2022.</h5>
+      <h5><span class="label label-danger">Bom</span> <span class="label label-primary">Ruim</span></h5><br>
+      <p>A palavra “impossível” foi inventada para ser desafiada.</p>     
+      <p>Somos capazes de fazer muito mais do que imaginamos!</p>
+      <p>Nós somos como o clima: feitos de dias de chuva e de sol!</p>
+      <p>Há ainda tanta coisa linda na vida para se descobrir.</p>
+      <br><br>
+      
+      <h4><small>Postado recentemente</small></h4>
+      <hr>
+      <h2>Sobre mim</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> ´Postado pelo Lorenzo , Nov 22, 2022.</h5>
+      <h5><span class="label label-success">Eu</span></h5><br>
+      <p>Meu nome é Lorenzo Rangel Toscabo, Tenho 18 anos e estou cursando Sistema de informação. Estou praticando as vezes programação, pois não tenho computador/notbook em casa, pretendo comprar um no inicio de 2023. Atualmente estou Namorando com Gislaine Muller de Lara, menina bastante brava, insuportavel, mas pelo menos ela é bonita, cheirosa e bastante depressiva, mas meu amor vai ajudar ela a parar de ser uma idiota. Amo demais essa garota.</p>
+      <hr>
+
+      <h4>Deixe um comentário:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Enviar</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">2</span> Comentarios:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="https://i0.wp.com/quadroxquadro.com.br/wp-content/uploads/2022/08/b1323ade1d325fc9f5c0f19eab068d5272d7ae3er1-735-414v2_uhq.jpg?resize=735%2C414&ssl=1" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Gislaine Muller <small>Nov 29, 2022, 9:12 </small></h4>
+          <p>Jacaré que voá vira onça. Seu sem noção. Não sabe nem escrever.</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEZrU9MBX9v4w/profile-displayphoto-shrink_200_200/0/1645597453072?e=1673481600&v=beta&t=b_3oZh7_Aft3O9cxCuVj7Me1c9TRDZPRsZ1jhz3-2HQ" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Adilson Pamplona <small>Dez, 2022, 8:25</small></h4>
+          <p>É o seguinte, 10 mais 10 é 20. Passo tudo no pão. Parabens Loliii!!.</p>
+          <br>                          
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
